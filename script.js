@@ -4,7 +4,7 @@ function compute() {
     var principal = document.getElementById("principal");
 
     // Checks the principal value to make sure it is positive
-    if (principal.value < 0) {
+    if (principal.value < 1) {
         alert("Please enter a positive value.");
         fprincipal.focus();
         return false;
