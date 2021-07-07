@@ -6,7 +6,7 @@ function compute() {
     // Checks the principal value to make sure it is positive
     if (principal.value < 1) {
         alert("Please enter a positive value.");
-        fprincipal.focus();
+        principal.focus();
         return false;
     }
 
